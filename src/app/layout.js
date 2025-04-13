@@ -1,4 +1,7 @@
 // src/app/layout.js
+"use client";
+
+import { useState, useEffect } from "react";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,16 +10,33 @@ import "./globals.css";
 // Font configuration
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Cyrus Development Foundation",
-  description: "Light shows the path to possible future",
-};
-
 export default function RootLayout({ children }) {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  // Handle scroll events
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Toggle mobile menu
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="bg-white shadow-md">
+        <header className={`${isScrolled ? 'fixed top-0 left-0 right-0 bg-white shadow-md z-50' : 'bg-white shadow-md'} transition-all duration-300`}>
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
               {/* Logo */}
@@ -31,7 +51,7 @@ export default function RootLayout({ children }) {
                 <span className="text-xl font-bold text-blue-900">Cyrus Foundation</span>
               </Link>
               
-              {/* Navigation */}
+              {/* Desktop Navigation */}
               <nav className="hidden md:flex space-x-6">
                 <Link href="/" className="text-gray-800 hover:text-blue-600 font-medium">
                   Home
@@ -55,8 +75,12 @@ export default function RootLayout({ children }) {
                 Donate
               </Link>
               
-              {/* Mobile Menu Button - You'd need to implement the toggle functionality */}
-              <button className="md:hidden text-gray-700">
+              {/* Mobile Menu Button */}
+              <button 
+                className="md:hidden text-gray-700 focus:outline-none" 
+                onClick={toggleMenu}
+                aria-label="Toggle menu"
+              >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -65,34 +89,34 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         
-        {/* Mobile Menu - Hidden by default */}
-        <div className="hidden md:hidden bg-white shadow-md">
+        {/* Mobile Menu */}
+        <div className={`md:hidden bg-white shadow-md transition-all duration-300 ${isMenuOpen ? 'block' : 'hidden'} ${isScrolled ? 'mt-16' : ''}`}>
           <div className="container mx-auto px-6 py-4">
             <nav className="flex flex-col space-y-4">
-              <Link href="/" className="text-gray-800 hover:text-blue-600 font-medium">
+              <Link href="/" className="text-gray-800 hover:text-blue-600 font-medium" onClick={toggleMenu}>
                 Home
               </Link>
-              <Link href="/about" className="text-gray-800 hover:text-blue-600 font-medium">
+              <Link href="/about" className="text-gray-800 hover:text-blue-600 font-medium" onClick={toggleMenu}>
                 About Us
               </Link>
-              <Link href="/programs" className="text-gray-800 hover:text-blue-600 font-medium">
+              <Link href="/programs" className="text-gray-800 hover:text-blue-600 font-medium" onClick={toggleMenu}>
                 Our Programs
               </Link>
-              <Link href="/get-involved" className="text-gray-800 hover:text-blue-600 font-medium">
+              <Link href="/get-involved" className="text-gray-800 hover:text-blue-600 font-medium" onClick={toggleMenu}>
                 Get Involved
               </Link>
-              <Link href="/contact" className="text-gray-800 hover:text-blue-600 font-medium">
+              <Link href="/contact" className="text-gray-800 hover:text-blue-600 font-medium" onClick={toggleMenu}>
                 Contact
               </Link>
-              <Link href="/donate" className="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-6 rounded-full text-center">
+              <Link href="/donate" className="bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-6 rounded-full text-center" onClick={toggleMenu}>
                 Donate
               </Link>
             </nav>
           </div>
         </div>
         
-        {/* Main Content */}
-        <main>{children}</main>
+        {/* Main Content - Add padding when header is fixed */}
+        <main className={isScrolled ? 'pt-20' : ''}>{children}</main>
         
         {/* Footer */}
         <footer className="bg-gray-900 text-white">
