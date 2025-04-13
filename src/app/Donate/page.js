@@ -88,7 +88,7 @@ export default function Donate() {
           
           <div className="mt-6 p-4 bg-amber-50 rounded-lg border border-amber-200">
             <p className="text-amber-800">
-              <strong>Important Note:</strong> Please include your name and "Donation" in the reference field of your 
+              <strong>Important Note:</strong> Please include your name and &quot;Donation&quot; in the reference field of your 
               transfer. For donation receipts or to specify a particular program for your donation, please contact us 
               at donations@cyrusfoundation.org after completing your transfer.
             </p>
@@ -101,7 +101,7 @@ export default function Donate() {
           <div className="mb-6">
             <h3 className="text-xl font-medium mb-2 text-emerald-500">Check Donations</h3>
             <p className="text-gray-700">
-              Please make checks payable to "Cyrus Foundation" and mail to:<br />
+              Please make checks payable to &quot;Cyrus Foundation&quot; and mail to:<br />
               Cyrus Foundation<br />
               P.O. Box 12345<br />
               Chicago, IL 60601

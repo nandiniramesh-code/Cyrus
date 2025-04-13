@@ -38,7 +38,7 @@ export default function Education() {
             <p className="text-gray-700">
               We bridge the digital divide by establishing technology centers equipped with computers 
               and internet access. Our digital literacy curriculum helps students develop essential 
-              skills needed in today's technology-driven world.
+              skills needed in today&apos;s technology-driven world.
             </p>
           </div>
           
@@ -64,7 +64,7 @@ export default function Education() {
           <h2 className="text-2xl font-semibold mb-4 text-emerald-600">Impact</h2>
           <p className="mb-6 text-gray-700">
             Since our founding, our educational programs have reached over 50,000 students across 
-            12 countries. We've established 35 community learning centers, trained more than 1,200 teachers, 
+            12 countries. We&apos;ve established 35 community learning centers, trained more than 1,200 teachers, 
             and provided scholarships to 750 deserving students.
           </p>
           <p className="text-gray-700">
