@@ -151,10 +151,10 @@ export default function Volunteer() {
           
           <div className="bg-emerald-50 p-6 rounded-lg">
             <p className="italic mb-4 text-gray-700">
-              "Volunteering with the Cyrus Development Foundation has been one of the most rewarding experiences of my life. 
+              &Volunteering with the Cyrus Development Foundation has been one of the most rewarding experiences of my life. 
               Working alongside dedicated team members and seeing the direct impact of our efforts on community members has 
               given me a new perspective on what sustainable development really means. I started as an agricultural support 
-              volunteer but have learned so much more about community engagement and resilience."
+              volunteer but have learned so much more about community engagement and resilience.&
             </p>
             <p className="text-right text-gray-600">— Amina K., Volunteer since 2023</p>
           </div>

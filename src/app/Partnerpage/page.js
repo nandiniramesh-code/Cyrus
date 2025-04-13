@@ -147,12 +147,12 @@ export default function PartnerPage() {
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex-1 border-l-4 border-blue-600 pl-4">
             <h3 className="font-medium text-lg mb-2">1. Initial Conversation</h3>
-            <p>We begin with a discussion to understand your organization's goals, values, and interests to identify potential alignment.</p>
+            <p>We begin with a discussion to understand your organization&s goals, values, and interests to identify potential alignment.</p>
           </div>
           
           <div className="flex-1 border-l-4 border-blue-600 pl-4">
             <h3 className="font-medium text-lg mb-2">2. Explore Opportunities</h3>
-            <p>Together, we explore specific partnership opportunities that align with both organizations' missions and objectives.</p>
+            <p>Together, we explore specific partnership opportunities that align with both organizations& missions and objectives.</p>
           </div>
           
           <div className="flex-1 border-l-4 border-blue-600 pl-4">
@@ -162,7 +162,7 @@ export default function PartnerPage() {
           
           <div className="flex-1 border-l-4 border-blue-600 pl-4">
             <h3 className="font-medium text-lg mb-2">4. Implement & Evaluate</h3>
-            <p>We implement our partnership activities and regularly evaluate progress to ensure we're creating the intended impact.</p>
+            <p>We implement our partnership activities and regularly evaluate progress to ensure we&re creating the intended impact.</p>
           </div>
         </div>
       </div>
@@ -176,10 +176,10 @@ export default function PartnerPage() {
           </div>
           <div>
             <blockquote className="italic text-lg mb-4">
-              "Our partnership with Cyrus Development Foundation has allowed us to extend our impact in ways 
-              we couldn't have achieved alone. Their deep community connections combined with our technical 
+              &Our partnership with Cyrus Development Foundation has allowed us to extend our impact in ways 
+              we couldn&t have achieved alone. Their deep community connections combined with our technical 
               expertise created a powerful synergy that has transformed local agricultural practices and 
-              improved food security for thousands of families."
+              improved food security for thousands of families.&
             </blockquote>
             <p className="font-medium">— Dr. Sarah Johnson, Director of Global Partnerships, Sustainable Futures Institute</p>
           </div>
@@ -250,7 +250,7 @@ export default function PartnerPage() {
                 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="contactName" className="block text-sm font-medium text-gray-700 mb-1">Contact Person's Name *</label>
+                    <label htmlFor="contactName" className="block text-sm font-medium text-gray-700 mb-1">Contact Person&s Name *</label>
                     <input 
                       type="text" 
                       id="contactName" 

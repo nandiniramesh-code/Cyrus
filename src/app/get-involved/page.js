@@ -178,7 +178,7 @@ export default function GetInvolvedPage() {
                     <svg className="h-6 w-6 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>$250 can sponsor a child's education for a year</span>
+                    <span>$250 can sponsor a child&s education for a year</span>
                   </li>
                 </ul>
                 <div className="mt-6">
@@ -345,10 +345,10 @@ export default function GetInvolvedPage() {
               <div className="md:w-1/2">
                 <h2 className="text-3xl font-bold mb-6 text-gray-800">Fundraise</h2>
                 <p className="text-lg text-gray-700 mb-4">
-                  Start your own fundraising campaign to support our work and spread awareness about our cause. Whether it's a birthday, marathon, or special event, you can turn it into an opportunity to make a difference.
+                  Start your own fundraising campaign to support our work and spread awareness about our cause. Whether it&s a birthday, marathon, or special event, you can turn it into an opportunity to make a difference.
                 </p>
                 <p className="text-lg text-gray-700 mb-6">
-                  Fundraising is not only about collecting funds; it's also about building a community of supporters and raising awareness about the issues we address. Your initiative can inspire others to join our mission and contribute to sustainable development.
+                  Fundraising is not only about collecting funds; it&s also about building a community of supporters and raising awareness about the issues we address. Your initiative can inspire others to join our mission and contribute to sustainable development.
                 </p>
                 <h3 className="text-xl font-bold mb-4 text-gray-800">How to Start Fundraising:</h3>
                 <ol className="text-gray-700 mb-6 space-y-3 list-decimal pl-5">
@@ -359,7 +359,7 @@ export default function GetInvolvedPage() {
                     <span className="font-semibold">Set up your fundraising page</span> using our online platform.
                   </li>
                   <li className="pl-2">
-                    <span className="font-semibold">Share your story</span> about why you're passionate about the cause.
+                    <span className="font-semibold">Share your story</span> about why you&re passionate about the cause.
                   </li>
                   <li className="pl-2">
                     <span className="font-semibold">Spread the word</span> through social media, email, and personal connections.
@@ -397,7 +397,7 @@ export default function GetInvolvedPage() {
                 </div>
               </div>
               <p className="italic mb-4 text-center">
-                "Volunteering with Cyrus Foundation has been one of the most rewarding experiences of my life. Seeing the direct impact of our work on children's education is something I'll cherish forever."
+                &Volunteering with Cyrus Foundation has been one of the most rewarding experiences of my life. Seeing the direct impact of our work on children&s education is something I&ll cherish forever.&
               </p>
               <p className="text-center font-semibold">
                 Sarah K., Education Volunteer
@@ -417,7 +417,7 @@ export default function GetInvolvedPage() {
                 </div>
               </div>
               <p className="italic mb-4 text-center">
-                "Our partnership with Cyrus Foundation has allowed us to extend our CSR initiatives to communities we couldn't reach before. Their dedication and professionalism make them an ideal partner."
+                &Our partnership with Cyrus Foundation has allowed us to extend our CSR initiatives to communities we couldn&t reach before. Their dedication and professionalism make them an ideal partner.&
               </p>
               <p className="text-center font-semibold">
                 James T., Corporate Partner
@@ -437,7 +437,7 @@ export default function GetInvolvedPage() {
                 </div>
               </div>
               <p className="italic mb-4 text-center">
-                "I raised funds for Cyrus Foundation during my marathon, and the support I received was overwhelming. It made my run more meaningful knowing it was helping farmers access better resources."
+                &I raised funds for Cyrus Foundation during my marathon, and the support I received was overwhelming. It made my run more meaningful knowing it was helping farmers access better resources.&
               </p>
               <p className="text-center font-semibold">
                 Michael R., Community Fundraiser
@@ -471,14 +471,14 @@ export default function GetInvolvedPage() {
               <div className="border-b border-gray-200 pb-6">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Can I specify which program my donation supports?</h3>
                 <p className="text-gray-700">
-                  Absolutely! When making a donation, you can specify whether you'd like your contribution to support education, healthcare, agriculture, or a specific project within these areas. We respect donor intentions and ensure funds are allocated accordingly.
+                  Absolutely! When making a donation, you can specify whether you&d like your contribution to support education, healthcare, agriculture, or a specific project within these areas. We respect donor intentions and ensure funds are allocated accordingly.
                 </p>
               </div>
               
               <div className="border-b border-gray-200 pb-6">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">How do I know my donation is making an impact?</h3>
                 <p className="text-gray-700">
-                  Transparency is important to us. We regularly share impact reports, stories, and updates through our newsletter, social media, and annual reports. Donors receive updates about the programs they've supported and the difference their contributions have made.
+                  Transparency is important to us. We regularly share impact reports, stories, and updates through our newsletter, social media, and annual reports. Donors receive updates about the programs they&ve supported and the difference their contributions have made.
                 </p>
               </div>
               

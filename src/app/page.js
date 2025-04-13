@@ -10,7 +10,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40 z-10 flex items-center justify-center">
           <div className="container mx-auto px-6 text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Empowering Children's Futures
+              Empowering Children&s Futures
             </h1>
             <p className="text-xl md:text-2xl mb-8">
               Light shows the path to possible future
@@ -144,7 +144,7 @@ export default function Home() {
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-6">Make a Difference Today</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Your support can transform a child's life. Whether through donation, volunteering,
+            Your support can transform a child&s life. Whether through donation, volunteering,
             or spreading awareness, every action counts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -165,19 +165,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Story 1 */}
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gray-800">Sarah's Story</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">Sarah&s Story</h3>
               <p className="text-gray-600 mb-4">
-                "Thanks to the educational program, I am the first in my family to attend college. 
-                Now I can pursue my dream of becoming a teacher."
+                &Thanks to the educational program, I am the first in my family to attend college. 
+                Now I can pursue my dream of becoming a teacher.&
               </p>
             </div>
             
             {/* Story 2 */}
             <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-xl font-bold mb-3 text-gray-800">Michael's Journey</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">Michael&s Journey</h3>
               <p className="text-gray-600 mb-4">
-                "The healthcare initiative provided by Cyrus Foundation saved my life. Today, 
-                I'm healthy and able to focus on my education."
+                &The healthcare initiative provided by Cyrus Foundation saved my life. Today, 
+                I&m healthy and able to focus on my education.&
               </p>
             </div>
           </div>

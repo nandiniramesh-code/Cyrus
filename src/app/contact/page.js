@@ -10,7 +10,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-black/50 z-10 flex items-center justify-center">
           <div className="container mx-auto px-6 text-center text-white">
             <h1 className="text-4xl md:text-5xl font-bold">Contact Us</h1>
-            <p className="text-xl mt-4">We're here to answer your questions</p>
+            <p className="text-xl mt-4">Wer&e here to answer your questions</p>
           </div>
         </div>
         <div className="relative h-full w-full">
@@ -33,7 +33,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-3xl font-bold mb-8 text-gray-800">Get in Touch</h2>
               <p className="text-lg text-gray-700 mb-8">
-                We'd love to hear from you! Whether you have questions about our programs, 
+                We&d love to hear from you! Whether you have questions about our programs, 
                 want to volunteer, donate, or partner with us, our team is here to help.
               </p>
 

@@ -156,10 +156,10 @@ export default function VolunteerPage() {
       <div className="mb-8 bg-gray-50 p-6 rounded-lg border border-gray-200">
         <h2 className="text-2xl font-semibold mb-4">Volunteer Testimonial</h2>
         <blockquote className="italic">
-          "Volunteering with the Cyrus Development Foundation has been one of the most rewarding experiences of my life. 
+          &Volunteering with the Cyrus Development Foundation has been one of the most rewarding experiences of my life. 
           Working alongside dedicated team members and seeing the direct impact of our efforts on community members has 
           given me a new perspective on what sustainable development really means. I started as an agricultural support 
-          volunteer but have learned so much more about community engagement and resilience."
+          volunteer but have learned so much more about community engagement and resilience.&
         </blockquote>
         <p className="mt-4 font-medium">— Amina K., Volunteer since 2023</p>
       </div>

@@ -13,7 +13,7 @@ export default function Agriculture() {
           <p className="mb-6 text-gray-700">
             The Cyrus Foundation is dedicated to promoting sustainable agriculture practices that improve food security, 
             protect the environment, and enhance livelihoods in rural communities. We believe that agriculture is not just 
-            about growing food—it's about nurturing communities and fostering environmental stewardship.
+            about growing food—it&s about nurturing communities and fostering environmental stewardship.
           </p>
           <p className="text-gray-700">
             Through innovative farming techniques, education, and community collaboration, we help create resilient 
@@ -48,7 +48,7 @@ export default function Agriculture() {
             <p className="text-gray-700">
               We establish community-managed seed banks that preserve local crop diversity and ensure farmers have 
               access to high-quality seeds. These banks serve as living libraries of agricultural biodiversity and 
-              reduce farmers' dependence on commercial seed markets.
+              reduce farmers& dependence on commercial seed markets.
             </p>
           </div>
           
@@ -88,9 +88,9 @@ export default function Agriculture() {
           </div>
           
           <div className="mb-8 bg-emerald-50 p-6 rounded-lg">
-            <h3 className="text-xl font-medium mb-2 text-emerald-500">Women's Farming Collective</h3>
+            <h3 className="text-xl font-medium mb-2 text-emerald-500">Women&s Farming Collective</h3>
             <p className="text-gray-700">
-              Our women's farming collective in Tamil Nadu has empowered 150 women to establish organic vegetable gardens 
+              Our women&s farming collective in Tamil Nadu has empowered 150 women to establish organic vegetable gardens 
               that provide both nutrition for their families and income through local markets. The collective has become 
               a powerful voice for sustainable agriculture in the region and a model for gender equity in farming.
             </p>
@@ -116,7 +116,7 @@ export default function Agriculture() {
           <p className="text-gray-700">
             Our agricultural programs have helped transform subsistence farming into sustainable livelihoods, 
             improving food security while protecting natural resources for future generations. By combining 
-            traditional knowledge with innovative approaches, we've helped create resilient agricultural systems 
+            traditional knowledge with innovative approaches, we&ve helped create resilient agricultural systems 
             that thrive even in challenging environments.
           </p>
         </section>
@@ -158,7 +158,7 @@ export default function Agriculture() {
           <h2 className="text-2xl font-semibold mb-4 text-emerald-600">Support Sustainable Agriculture</h2>
           <p className="mb-6 text-gray-700">
             Your support can help farmers transition to sustainable practices that nourish both people and the planet. 
-            By contributing to our agricultural initiatives, you're investing in healthier food systems, thriving rural 
+            By contributing to our agricultural initiatives, you&re investing in healthier food systems, thriving rural 
             communities, and environmental renewal.
           </p>
           <div className="mt-6">
